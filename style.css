@@ -30,8 +30,9 @@ nav {
     padding: 2% 6%;
     justify-content:space-between;
     align-items: center;
-    background-color:rgba(27, 42, 65, 0.9);
+    background-color:#000;
     backdrop-filter: blur(4px);
+
 }
 
 
@@ -97,14 +98,16 @@ nav img {
 
  /* Styling Heading 1 in text-box division */
 .text-box h1 {
-    font-size: 62px;
+    font-size: 65px;
+    color: red;
 }
 
  /* Styling paragraph in text-box division */
 .text-box p {
     margin: 10px 0 40px; /* 10px top, 0 px left and right, 40px bottom */
-    font-size: 14px;
-    color: #fff; 
+    font-size: 22px;
+    color: #fff;
+    z-index: -1;
 }
 
 
@@ -133,45 +136,6 @@ nav img {
 
 nav .fa {
     display:none;
-}
-
-
-/* Responsiveness */
-
-@media (max-width : 700px){
-    .text-box h1 {
-        font-size: 20px;
-    }
-
-    .nav-links ul li{
-        display: block;
-    
-    }
-
-    .nav-links {
-        position:fixed;
-        background: #f44336;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right:-200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-
-    }
-    
-    nav .fa{
-        display: block;
-        color: #fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-
-.nav-links ul {
-    padding: 30px;
-  }
 }
 
 
@@ -208,7 +172,7 @@ p {
 
 
 .service-col {
-    flex-basis: 31%;
+    flex-basis: 30%;
     background: #fff3f3;
     border-radius: 8px;
     margin-bottom:5%;
@@ -254,13 +218,85 @@ i{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-@media(max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
- html, body {
-    overflow-x: hidden;}
 
+
+/* services-section */
+
+.services-section{
+    background-color: #f9fdff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.services-section h2{
+    font-size:26px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.services-section p.subheading{
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+
+}
+
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 25px;
+    max-width:400px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+.service-card .fa-solid, .fa-regular{
+    margin-bottom: 25px;
+    background: transparent;
+    display: inline-block;
+    color: grey;
+    font-size:50px;
+}
+
+.service-card h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.service-card p{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+
+.service-card a {
+    display: inline-block;
+    background-color: #00aef0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition:background-color 0.3s ease;
+}
+
+.service-card a:hover{
+    background-color: #008bbd;
 }
 
 
@@ -414,13 +450,8 @@ i{
 }
 
 
-@media (max-width:700px){
-    .testimonials-col img {
-        margin-left: 0 px;
-        margin-right: 15px;
-    }
 
-}
+
 
 /* Call to Action */
 
@@ -505,6 +536,67 @@ i{
     padding: 0;
 
 } */
+
+
+
+
+/* Responsiveness */
+
+@media (max-width:700px){
+
+ html, body {
+    overflow-x: hidden;}
+
+
+  .row {
+        flex-direction: column;
+    }
+
+
+    .testimonials-col img {
+        margin-left: 0 px;
+        margin-right: 15px;
+    }
+
+}
+
+@media (max-width : 700px){
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .nav-links ul li{
+        display: block;
+    
+    }
+
+    .nav-links {
+        position:fixed;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right:-200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+
+    }
+    
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+.nav-links ul {
+    padding: 30px;
+  }
+} 
+
+
 
 @media (max-width:700px){
     .cta h1{
@@ -704,6 +796,12 @@ i{
     .sub-header h1{
         font-size:24px;
     }
+
+ .services-container {
+    flex-direction:column;
+    align-items:center;
+}
+
 }
 
 /* contact  us page */
