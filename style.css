@@ -512,11 +512,101 @@ i{
     border-radius: 10px;
 }
 
+
+/* styling the team section */
+.team {
+  margin-bottom:50px;
+  padding-bottom:40px;
+  padding:8px 16px;
+}
+
+.team .row{
+    display:flex;
+    justify-content: space-between;
+    align-items:stretch;
+    flex-wrap: wrap;
+    gap: 16px;
+
+
+}
+
+.team .row .column {
+    flex:1 1 30%;
+    margin:12px;
+    display: flex;
+}
+
+
+.team .row .card {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius:5px;
+}
+
+.team .row .card-text {
+    margin-bottom: auto;
+}
+
+.team .row .card-text p {
+    margin: 4px 0;
+}
+
+
+.container{
+    padding: 0 16px 16px;
+    flex:1;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.container.about-col, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding:8px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+.button:hover{
+    background-color: #555;
+}
+
+
+/* Styling the footer */
 .footer {
     background:#111;
     padding:30px;
     color: #fff;
     cursor: pointer;
+}
+
+
+/* Responsiiveness */
+@media screen and (max-width:768px) {
+   .team .row {
+        display:flex;
+        flex-direction: column;
+    }
+    
 }
 
 
@@ -574,6 +664,19 @@ i{
 
 .footer-column ul li a:hover{
     text-decoration: underline;
+}
+
+
+.footer-column:nth-child(1) ul li:hover{
+   color: #f7d06b;
+    transform: translateX(5px);
+    cursor: pointer;
+}
+
+.footer-column:nth-child(3) ul li a:hover{
+   color: #f7d06b;
+    transform: translateX(-5px);
+    cursor: pointer;
 }
 
 
