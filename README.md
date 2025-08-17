@@ -24,3 +24,7 @@
 - oN
 - bUDDY
 
+- tHIS
+- ONE
+- cOME
+
