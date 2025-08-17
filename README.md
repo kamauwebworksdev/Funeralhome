@@ -16,6 +16,11 @@
 2. Hello
 3. Thanks
 
-   - This
+   - Thi
    - Is
-   -  A readme 
+   -  A readme
+  
+- cOME
+- oN
+- bUDDY
+
