@@ -16,15 +16,16 @@
 2. Hello
 3. Thanks
 
-   - Thi
-   - Is
-   -  A readme
-  
-- cOME
-- oN
-- bUDDY
 
-- tHIS
-- ONE
-- cOME
+1. This
+2. Is
+
+1. This
+2. That
+3. Readme
+
+1. Hello
+2. Solomon
+3. Kamau
+
 
