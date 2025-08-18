@@ -14,16 +14,8 @@
 
 1. Hello
 2. Hello
-3. Thanks
-
-
-1. This
-2. Is
-
-1. This
-2. That
-3. Readme
-
+3. Thank
+   
 1. Hello
 2. Solomon
 3. Kamau
@@ -49,6 +41,7 @@ __Tick tack toe__
 ## Heading two
 ### Heading three
 #### Heading four
+
 
 
 
