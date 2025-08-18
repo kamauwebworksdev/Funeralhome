@@ -45,5 +45,10 @@ __Tick tack toe__
 6. 
 
 
+# Heading one
+## Heading two
+### Heading three
+#### Heading four
+
 
 
