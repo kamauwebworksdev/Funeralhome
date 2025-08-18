@@ -65,7 +65,12 @@ __helllo__
 
 
 ![SolomonKendi](https://unsplash.com/photos/abstract-geometric-pattern-of-angled-metallic-panels-2Dr0zG6DUrg)
-![James Ndeli] (https://unsplash.com/photos/abstract-geometric-pattern-of-angled-metallic-panels-2Dr0zG6DUrg)
+
+![James Ndeli](https://images.unsplash.com/photo-1755096731687-d0b6efac246d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+
+![sun](https://images.unsplash.com/photo-1526066843114-f1623fde3476?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D).
+
 
 
 
