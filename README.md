@@ -9,10 +9,8 @@
 *Hello*
 **Helly**
 
-
-1. Hello
-2. Hello
-3. Thank
+1. U
+2. FU
    
 1. Hello
 2. Solomon
@@ -73,6 +71,7 @@ __helllo__
 ![Logo](Images/Logo2.png)
 
 ![This is amazing](Images/Prof1.jpg)
+
 
 
 
