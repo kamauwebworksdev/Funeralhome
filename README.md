@@ -4,9 +4,7 @@
 2. Second
 3. Third
 
-- First
-- Second
-- Third
+
 
 *Hello*
 **Helly**
@@ -75,6 +73,7 @@ __helllo__
 ![Logo](Images/Logo2.png)
 
 ![This is amazing](Images/Prof1.jpg)
+
 
 
 
