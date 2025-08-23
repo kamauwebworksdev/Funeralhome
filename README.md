@@ -73,6 +73,10 @@ __helllo__
 ![This is amazing](Images/Prof1.jpg)
 
 
+>"Hello kenya is a very good country that gives you good oppootrunies to work and to do businessess at any time you may want to do no matter what.Please keep coming and coming back to our country.Thanks:)
+
+
+
 
 
 
