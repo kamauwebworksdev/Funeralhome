@@ -9,6 +9,15 @@
 *Hello*
 **Helly**
 
+# 1
+
+## 2
+
+### 3
+
+#### Anayeketi Katika Patakatifu
+
+
 
 __Hey__
 __Tick tack toe__
@@ -34,6 +43,7 @@ __Tick tack toe__
 > "THis is an amazing tude for us to do
 >
 
+> ## Welcomem to the Slopes
 _Jhekehu_
 
 
@@ -65,6 +75,7 @@ __helllo__
 
 
 ![Hello World](https://plus.unsplash.com/premium_photo-1675198764382-94d5c093df30?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D)
+
 
 
 
