@@ -9,20 +9,8 @@
 *Hello*
 **Helly**
 
-1. U
-2. FU
-   
-1. Hello
-2. Solomon
-3. Kamau
-
-[visit me on fiverr](https://www.fiverr.com)
-
-[visit me on google](https://google.com)
-
 
 __Hey__
-
 __Tick tack toe__
 
 1. Carson
@@ -77,6 +65,7 @@ __helllo__
 
 
 ![Hello World](https://plus.unsplash.com/premium_photo-1675198764382-94d5c093df30?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D)
+
 
 
 
